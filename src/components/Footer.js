@@ -59,7 +59,7 @@ function Footer() {
           <h4>Social</h4>
           <SocialLinks>
             <SocialIcon 
-              href="https://twitter.com/JupiterAIIntern" 
+              href="https://x.com/jupAI_intern" 
               target="_blank" 
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1 }}
@@ -67,7 +67,7 @@ function Footer() {
               <FaTwitter />
             </SocialIcon>
             <SocialIcon 
-              href="https://discord.gg/jupiterai" 
+              href="https://discord.gg/jup" 
               target="_blank" 
               rel="noopener noreferrer"
               whileHover={{ scale: 1.1 }}
