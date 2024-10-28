@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider } from 'styled-components';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { GlobalStyles } from './styles/GlobalStyles';
+import { theme } from './styles/theme';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import About from './pages/About';
+import Roadmap from './pages/Roadmap';
+import Community from './pages/Community';
+import JupiterTerminal from './components/JupiterTerminal';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <GlobalStyles />
+      <Router>
+        <Navbar />
+        <JupiterTerminal />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/roadmap" element={<Roadmap />} />
+          <Route path="/community" element={<Community />} />
+
+        </Routes>
+        <Footer />
+      </Router>
+    </ThemeProvider>
   );
 }
 
