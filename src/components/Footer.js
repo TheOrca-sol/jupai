@@ -51,7 +51,6 @@ function Footer() {
     <FooterContainer>
       <FooterContent>
         <div>
-          <h3>$JUPAI</h3>
           <p>The AI-powered intern of the Jupiverse</p>
         </div>
        
