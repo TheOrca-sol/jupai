@@ -158,7 +158,7 @@ function Hero() {
           The first AI-powered intern in the Jupiverse, learning from degens and praising suits
         </Subtitle>
         
-        <SocialLinksContainer>
+        
           
           
          
