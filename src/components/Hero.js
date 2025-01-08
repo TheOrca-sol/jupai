@@ -161,23 +161,7 @@ function Hero() {
         <SocialLinksContainer>
           
           
-          <BuyButton 
-            as="button"
-            onClick={() => {
-              if (window.Jupiter) {
-                window.Jupiter.resume();
-              }
-            }}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Buy $JUPAI
-          </BuyButton>
-        </SocialLinksContainer>
-
-        <ContractAddress>
-          CA: Coming soon...
-        </ContractAddress>
+         
       </Content>
     </HeroSection>
   );
