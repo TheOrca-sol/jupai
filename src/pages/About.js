@@ -108,7 +108,7 @@ function About() {
         >
           <Title>About JUPAI</Title>
           <Text>
-            Born in the Jupiverse, Jupiter AI Intern ($JUPAI) is the first 
+            Born in the Jupiverse, Jupiter AI Intern is the first 
             AI-powered intern learning from the best degens while praising 
             the wisdom of suits.
           </Text>
